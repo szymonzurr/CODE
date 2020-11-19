@@ -8,51 +8,63 @@
     <meta name="keywords" content="website, motorola, solutions, recruitment, szymon">
     <meta name="description" content="Simple website developed for recruitment purpose">
     <script src="https://kit.fontawesome.com/1afac83351.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/moto2/css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header>        
+        <nav class=navi-bar>  
+            <a href="index.html"><img class="logo" src="/moto2/img/20200122_211651_mod.png" alt="This is a logo showing the author's handwritten signature"></a>         
+            <div class="menu">
+            <a href="index.html">home</a></li>
+            <a href="">about</a></li>
+            <a href="">design</a></li>
+            <a href="">passion</a></li>
+            </div>
+        </nav>
+        <!-- <nav>  
+            <img class="logo" src="/moto2/img/20200122_211651_mod.png" alt="">         
+            <ul>                
                 <li><a href="index.html">home</a></li>
                 <li><a href="">about</a></li>
                 <li><a href="">design</a></li>
                 <li><a href="">passion</a></li>
             </ul>
-        </nav>
-    </header>        
-    <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam facere omnis possimus. Quos, nihil molestias. Illum possimus minus reiciendis!</div> 
-    <div class="container">
-            <div class="header-img">
-            <img src="/moto2/img/profile-image.jpg" width="100%" alt="This is the profile picture of the author of this page">
-            </div>            
-            <div class="header-text">
-            <h1>Hello, I'm Simon</h1>
-            <p>I am an architect and designer.
-                The constant desire to learn new things drives my personal development.
-                I want to be a programmer.</p>
-            </div>
-    </div>
-    
-    <main>
-        <h2>Let me introduce to you my test website</h2>
-        <section>
-            <div class="about-site-txt">
-                <h3>This website is a recruitment task.</h3>
-                <p>One of the steps in becoming a developer is to follow this website</p>
+        </nav> -->           
+        <div class="content">This is the part of the page that is different from the rest.</div>     
+        <div class="container">
+                <div class="header-img">
+                <img class="profile-img"src="/moto2/img/profile-image.jpg" height="100%" alt="This is the profile picture of the author of this page">
+                </div>            
+                <div class="header-text">
+                <h1>Hello, I'm Simon Żur</h1>
+                <p>I am an architect and designer. I want to be a programmer.<br>The constant desire to learn new things drives my personal development.</p>
+                </div>
         </div>
+    </header>  
+
+    <main>
+        <h2 class="about-site-heading">Let me introduce to you my test website</h2>
+        <section class="top">
+            
+                <h3>This website is a recruitment task.</h3>
+                <p>I created it to go through the second phase of recruiting into the motorola solutions academy. I hope it will be assessed positively.</p>
+        
         </section>
-        <section>
-            <div class="about-site-txt">
+        <section class="middle">
+            
                 <h3>How is this website structured?</h3>
                 <p>This page is made according to the provided brief.
-                I tried to follow step by step instructions.</p>
-            </div>
+                I tried to follow step by step instructions. This website is made with very basic tools. I have learned a lot while creating this website. I want more!</p>
+            
         </section>
-        <section>
-            <div class="about-site-txt">
+        <section class="bottom">
+            
                 <h3>What's on this page?</h3>
-                <p>This page consists of a home page and several pages. There you will find information about me, about my projects so far and about my passion. The contact button will take you to the contact form.</p>
-            </div>
+                <p>This page consists of a home page and several sub-pages. There you will find information about me, about my projects so far and about my passion. The contact button will take you to the contact form.</p>
+            
         </section>
     </main>
               
@@ -64,6 +76,8 @@
                 <a href=""><i class="fab fa-instagram-square"></i></a>
             </span>            
         </p>
-    </footer>    
+    </footer> 
+
 </body>
+
 </html>

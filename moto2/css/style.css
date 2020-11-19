@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    text-align: left;
+}
+
+
+
+h1 {
+    color: rgb(49, 69, 109);
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: rgb(49, 69, 109);
+    margin-bottom: 10px;
+}
+
+/* NAVIGATION */
+
+.logo {
+    height: 80px; 
+    margin-top: 15px;
+    margin-left: 50px; 
+}
+
+.navi-bar {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 100px;
+}
+
+.menu a {
+    padding: 10px 10px;
+    color: rgb(49, 69, 109);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: color .3s;
+}
+
+
+.menu > a:hover{
+    color: snow;
+    font-weight: bold;
+}
+
+
+/*  
+nav {
+    
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+        
+}
+
+nav li a {
+    padding: 10px 30px;
+    color: rgb(49, 69, 109);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: color .3s;
+}
+
+nav li a:hover{
+    color: snow;
+}
+
+*/
+
+/* DIV CONTENT */
+
+.content {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(196, 175, 158);
+
+}
+
+/* HERO */
+
+.container {
+    display: flex;
+    align-items: center;  
+    justify-content: center;        
+  }
+
+.profile-img {
+    max-width: 100%;
+} 
+
+.header-img {
+     flex-basis: 50%;
+}
+
+
+
+
+ /* .header-text {
+      flex-basis: 50%;
+      margin-left: 50px;
+    } */
+
+
+/* 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-img {
+    flex-basis: 50%;
+}
+ */
+
+ /* MAIN */
+
+ main {     
+     margin: 50px auto;
+}
+
+ .about-site-heading {
+     margin-bottom: 50px;
+     text-align: center;
+}
+
+ section {
+    width: 30%;
+    margin: 50px auto;
+     
+}
+
+ /* FOOTER */
+
+footer {
+     height: 80px;
+     line-height: 80px;
+     background-color: whitesmoke;
+     text-align: center;
+     font-size: 12px;
+}
+
+.foot-ico {
+    margin-left: 50px;
+}
+
+.foot-ico i {
+     padding: 0 15px;
+     color: rgb(49, 69, 109);
+     font-size: 24px;
+     transition: color .3s;
+}
+
+.foot-ico i:hover {
+    color: snow;
+    font-weight: bold;
+}
