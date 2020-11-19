@@ -153,33 +153,36 @@ footer {
 .cont-conteiner h1 {
     text-transform: uppercase;
     color: white;
+    
 }
 
 .cont-conteiner h2 {
-    color: white;
     margin-bottom: 25px;
+    color: white;
 }
 
 .cont-conteiner label {
-    color: white;
+    color: #ffffff;    
 }
 
 .cont-conteiner input {
     width: 100%;
+    margin-top: 5px;
     margin-bottom: 25px;
     border: none;
 }
 
 .cont-conteiner textarea {
     width: 100%;
+    margin-top: 5px;
     margin-bottom: 50px;
     border: none;
 }
 
 .submit-btn {
+    border: 3px;
+    border-color: white;
     border-style: solid;
-    border-color: white
-    
     line-height: 44px;
     padding: 0 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -190,16 +193,21 @@ footer {
     letter-spacing: 2px;
     color: white;
     background: none;
+    transition: color .3s;
+    transition: background-color .3s;
+    
 }
 
 .submit-btn:hover {
     background-color: white;
+    color: rgb(255, 141, 47);
 
 }
 
 .submit-btn:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-    inset 2px 2px 3px rgba(0, 0, 0, .6);;
+    
+    box-shadow: inset -4px -4px 6px rgba(255, 141, 47, .6),
+    inset 4px 4px 6px rgba(255, 141, 47, .6);;
 }
 
 
