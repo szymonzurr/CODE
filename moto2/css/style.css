@@ -27,7 +27,7 @@ h2, h3 {
 .logo {
     height: 80px; 
     margin-top: 15px;
-    margin-left: 50px; 
+    margin-left: 10%; 
 }
 
 .navi-bar {
@@ -38,8 +38,7 @@ h2, h3 {
 
 .menu {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    right: 10%;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -47,7 +46,7 @@ h2, h3 {
 }
 
 .menu a {
-    padding: 10px 10px;
+    padding: 10px 20px;
     color: rgb(49, 69, 109);
     text-decoration: none;
     letter-spacing: 1px;
@@ -56,50 +55,27 @@ h2, h3 {
 }
 
 
-.menu > a:hover{
+.menu a:hover{
     color: snow;
     font-weight: bold;
 }
 
-
-/*  
-nav {
-    
-    height: 100px;
-    background-color: rgb(230, 230, 230);
-    align-items: center;
-}
-
-nav li {
-    display: inline-block;
-        
-}
-
-nav li a {
-    padding: 10px 30px;
-    color: rgb(49, 69, 109);
-    text-decoration: none;
+.contact {
     font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 18px;
-    transition: color .3s;
+    /* border: 1px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(49, 69, 109);  */
 }
-
-nav li a:hover{
-    color: snow;
-}
-
-*/
 
 /* DIV CONTENT */
 
 .content {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     color: rgb(255, 255, 255);
-    background-color: rgb(196, 175, 158);
-
+    background-color: rgb(255, 141, 47);
 }
 
 /* HERO */
@@ -107,41 +83,21 @@ nav li a:hover{
 .container {
     display: flex;
     align-items: center;  
-    justify-content: center;        
-  }
+    justify-content: center;    
+    background-color: whitesmoke;    
+}
 
 .profile-img {
     max-width: 100%;
 } 
 
 .header-img {
-     flex-basis: 50%;
+     flex-basis: 30%;
 }
 
-
-
-
- /* .header-text {
-      flex-basis: 50%;
-      margin-left: 50px;
-    } */
-
-
-/* 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-text {
+    margin-left: 10px;
 }
-
-img {
-    max-width: 100%;
-}
-
-.header-img {
-    flex-basis: 50%;
-}
- */
 
  /* MAIN */
 
@@ -184,4 +140,69 @@ footer {
 .foot-ico i:hover {
     color: snow;
     font-weight: bold;
+}
+
+/* CONTACT FORM */
+
+.cont-conteiner {
+    width: 500px;
+    margin: 50px auto;
+    background: none;
+}
+
+.cont-conteiner h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.cont-conteiner h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.cont-conteiner label {
+    color: white;
+}
+
+.cont-conteiner input {
+    width: 100%;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.cont-conteiner textarea {
+    width: 100%;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.submit-btn {
+    border-style: solid;
+    border-color: white
+    line-height: 44px;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    background: none;
+}
+
+.submit-btn:hover {
+    background-color: white;
+
+}
+
+.submit-btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);;
+}
+
+
+
+
+
 }
