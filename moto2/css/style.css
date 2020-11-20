@@ -10,8 +10,6 @@ body {
     text-align: left;
 }
 
-
-
 h1 {
     color: rgb(49, 69, 109);
     margin-bottom: 20px;
@@ -54,7 +52,6 @@ h2, h3 {
     transition: color .3s;
 }
 
-
 .menu a:hover{
     color: snow;
     font-weight: bold;
@@ -62,10 +59,6 @@ h2, h3 {
 
 .contact {
     font-weight: bold;
-    /* border: 1px;
-    border-radius: 10px;
-    border-style:solid;
-    border-color: rgb(49, 69, 109);  */
 }
 
 /* DIV CONTENT */
@@ -97,23 +90,76 @@ h2, h3 {
 
 .header-text {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
  /* MAIN */
 
- main {     
+main {     
      margin: 50px auto;
 }
 
  .about-site-heading {
-     margin-bottom: 50px;
+     margin: 100px 0;
+     text-transform: uppercase;
      text-align: center;
 }
 
- section {
+section {
     width: 30%;
     margin: 50px auto;
-     
+}
+
+section h3 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.main-content {
+    margin-left: 20px;    
+}
+
+.main-ico {
+    font-size: 50px;
+    color: rgb(49, 69, 109);
+}
+
+.button {
+    position: relative;
+    padding: 0 0 50px 0;
+}
+
+.begin-btn {    
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%);
+    border: 2px;
+    border-color: rgb(49, 69, 109);
+    border-style: solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(49, 69, 109);
+    transition: color .3s;
+    transition: background-color .3s;      
+}
+
+.begin-btn:hover {
+    color: white;
+    background-color:rgb(49, 69, 109);    
+}
+
+.begin-btn:active {    
+    box-shadow: inset -4px -4px 6px rgba(255, 255, 255, .6),
+    inset 4px 4px 6px rgba(255, 255, 255, .6);;
 }
 
  /* FOOTER */
@@ -152,8 +198,7 @@ footer {
 
 .cont-conteiner h1 {
     text-transform: uppercase;
-    color: white;
-    
+    color: white;    
 }
 
 .cont-conteiner h2 {
@@ -194,24 +239,163 @@ footer {
     color: white;
     background: none;
     transition: color .3s;
-    transition: background-color .3s;
-    
+    transition: background-color .3s;    
 }
 
 .submit-btn:hover {
     background-color: white;
     color: rgb(255, 141, 47);
-
 }
 
-.submit-btn:active {
-    
+.submit-btn:active {    
     box-shadow: inset -4px -4px 6px rgba(255, 141, 47, .6),
     inset 4px 4px 6px rgba(255, 141, 47, .6);;
 }
 
+/* PASSION */
 
-
-
-
+.header-img2 {
+    position: relative;
+    height: 910px;
+    background-image: url(/moto2/img/climbing-1.png);
+    background-position: 0%;
+    background-repeat: no-repeat;
 }
+
+.header-txt {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+}
+
+.view-btn {
+    border: 2px;
+    border-color: rgb(49, 69, 109);
+    border-style: solid;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    color:rgb(49, 69, 109);
+    background: none;    
+    transition: border-color .3s;
+}
+
+.view-btn i {
+    padding: 10px 40px;
+    transition: color .3s;
+}
+
+.view-btn:hover {
+    border-color: white
+}
+
+.view-btn i:hover {
+     color: white;
+}
+
+.view-btn:active {    
+    box-shadow: inset -4px -4px 6px rgba(255, 255, 255, .6),
+    inset 4px 4px 6px rgba(255, 255, 255, .6);;
+}
+
+/* ABOUT */
+
+.header-img-about {
+    position: relative;
+    height: 900px;
+    background-image: url(/moto2/img/classroom_2.jpg.png);
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+}
+
+.header-txt-about {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.header-bg-about {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 255, 255, .8); 
+}
+
+.link-btn {
+    border: 2px;
+    border-color: rgb(49, 69, 109);
+    border-style: solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(49, 69, 109);
+    transition: color .3s;
+    transition: border-color .3s;   
+}
+
+.link-btn:hover {
+    color: white;
+    border-color: white;
+}
+
+.link-btn:active {    
+    box-shadow: inset -4px -4px 6px rgba(255, 255, 255, .6),
+    inset 4px 4px 6px rgba(255, 255, 255, .6);;
+}
+
+/* DESIGN */
+
+.container-dsgn {
+    display: flex;
+    align-items: center;  
+    justify-content: center;    
+    background-color: white;  
+}
+
+.link-btn-dsgn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px;
+    border-color: rgb(49, 69, 109);
+    border-style: solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(49, 69, 109);
+    transition: color .3s;
+    transition: background-color .3s;   
+}
+
+.link-btn-dsgn:hover {
+    color: white;
+    background-color: rgb(49, 69, 109);
+}
+
+.link-btn-dsgn:active {    
+    box-shadow: inset -4px -4px 6px rgba(255, 255, 255, .6),
+    inset 4px 4px 6px rgba(255, 255, 255, .6);;
+}
+
+.container-dsgn-end {
+    margin-bottom: 100px;
+}
+
+.container-dsgn-end h2 {
+    text-align: center;
+    margin: 50px;
+}
+
