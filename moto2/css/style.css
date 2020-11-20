@@ -229,12 +229,13 @@ footer {
     border-color: white;
     border-style: solid;
     line-height: 44px;
-    padding: 0 40px;
+    padding: 10px 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 2px;
     color: white;
     background: none;
